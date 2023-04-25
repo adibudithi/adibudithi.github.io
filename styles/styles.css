@@ -1,0 +1,175 @@
+/* everything */
+* {
+    box-sizing: border-box;
+}
+
+/* html body style */
+body {
+    color: white;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* header/logo title */
+.header {
+    padding-top: 50px;
+    vertical-align: bottom;
+    text-align: center;
+    background: orangered;
+    color: white;
+}
+
+/* dk's style and position */
+.dk {
+    background: orangered;
+    float: left;
+    clear: right;
+}
+
+/* increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+/* style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    clear: right;
+}
+
+/* style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+/* right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* change color on hover */
+.navbar a:hover {
+    color: lightsalmon;
+}
+
+/* column container */
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    clear: right;
+}
+
+/* create two unequal columns that sits next to each other */
+/* sidebar/left column */
+.side {
+    -ms-flex: 30%;
+    min-width: 250px;
+    /* IE10 */
+    flex: 30%;
+    background-color: #4b4b4b;
+    padding: 20px;
+}
+
+/* main column */
+.main {
+    -ms-flex: 70%;
+    /* IE10 */
+    flex: 70%;
+    background-color: gray;
+    padding: 20px;
+    max-height: 2000px;
+    overflow-y: scroll;
+}
+
+.main h5 {
+    text-align: right;
+    clear: both;
+}
+
+.main p {
+    clear: right;
+}
+
+.main img {
+    border-radius: 25px;
+    float: right;
+    margin-left: 20px;
+    max-width: 1000px;
+    max-height: 300px;
+}
+
+/* profile picture */
+.profileimg {
+    border-radius: 50%;
+    width: 100%;
+    padding: 20px;
+}
+
+/* larger skill icons */
+.skillimg {
+    float: left;
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 43%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* smaller socials icons */
+.iconimg {
+    width: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* .blogimg {
+    border-radius: 25px;
+    float: right;
+    clear: both;
+    max-width: 1000px;
+    max-height: 250px;
+} */
+
+/* placeholder image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+}
+
+/* responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row div {
+        clear: both;
+    }
+}
+
+/* responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
