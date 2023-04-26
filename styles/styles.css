@@ -21,15 +21,28 @@ body {
     color: white;
 }
 
+/* header text */
 .header h1 {
     margin-bottom: 0px;
+    display: inline-block;
+}
+
+/* header text hover */
+.header h1:hover {
+    color: #333;
 }
 
 /* dk's style and position */
 .dk {
-    background: orangered;
-    float: left;
-    clear: right;
+    float:right;
+    width:150px
+}
+
+
+.dk img {
+    height: 90px;
+    float: right;
+    padding-right: 50px;
 }
 
 /* increase the font size of the heading */
