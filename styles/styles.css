@@ -34,11 +34,6 @@ body {
 
 /* dk's style and position */
 .dk {
-    float:right;
-    width:150px
-}
-
-.dk img {
     height: 90px;
     float: right;
     padding-right: 50px;
@@ -104,6 +99,7 @@ body {
     flex: 70%;
     background-color: gray;
     padding: 20px;
+    overflow-y: scroll;
 }
 
 .main h5 {
