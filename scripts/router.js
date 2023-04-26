@@ -16,7 +16,7 @@ const urlRoutes = {
         description: "Page not found",
     },
     "/": {
-        template: "index.html",
+        template: "/pages/home.html",
         title: "home",
         description: "This is the home page",
     },
