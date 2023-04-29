@@ -123,6 +123,12 @@ body {
     max-height: 500px;
 }
 
+.construction {
+    padding:20px;
+    height:100vh;
+    background-color:gray;
+}
+
 /* profile picture */
 .profileimg {
     border-radius: 50%;
