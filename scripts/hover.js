@@ -25,3 +25,11 @@ function hoverGitHub(image) {
 function leaveGitHub(image) {
     image.src = "images/assets/github.png";
 }
+
+function clickAdi(image) {
+    if (image.src == "images/assets/adi.png") {
+        image.src = "images/assets/qr.png";
+    } else {
+        image.src = "images/assets/adi.png";
+    }
+}
