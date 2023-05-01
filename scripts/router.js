@@ -17,7 +17,7 @@ const urlRoutes = {
     },
     "/": {
         template: "/pages/home.html",
-        title: "adi",
+        title: "adi budithi",
         description: "This is the home page",
     },
     "/about": {
