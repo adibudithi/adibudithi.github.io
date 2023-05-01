@@ -27,9 +27,9 @@ function leaveGitHub(image) {
 }
 
 function clickAdi(image) {
-    if (image.src == "images/assets/adi.png") {
+    if (image.src == "images/assets/adi.jpg") {
         image.src = "images/assets/qr.png";
     } else {
-        image.src = "images/assets/adi.png";
+        image.src = "images/assets/adi.jpg";
     }
 }
