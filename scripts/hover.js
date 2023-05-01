@@ -27,9 +27,13 @@ function leaveGitHub(image) {
 }
 
 function clickAdi(image) {
-    if (image.src == "images/assets/adi.jpg") {
-        image.src = "images/assets/qr.png";
-    } else {
-        image.src = "images/assets/adi.jpg";
+    var state = 0;
+    switch (state) {
+        case 0:
+            image.src = "images/assets/adi.jpg";
+            state = 1;
+        case 1:
+            image.src = "images/assets/qr.jpg";
+            state = 0;
     }
 }
