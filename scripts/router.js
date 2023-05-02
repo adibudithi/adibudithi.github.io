@@ -22,12 +22,12 @@ const urlRoutes = {
     },
     "/about": {
         template: "/pages/about.html",
-        title: "about",
+        title: "about adi",
         description: "about page",
     },
     "/contact": {
         template: "/pages/contact.html",
-        title: "contact",
+        title: "contact adi",
         description: "contact page",
     },
 };
