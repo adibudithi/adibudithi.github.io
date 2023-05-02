@@ -44,7 +44,6 @@ const urlRouter = (event) => {
 // async function that handles url location
 const urlLocationHandler = async () => {
     const location = window.location.pathname; // get the url path
-    console.log(window.location.pathname);
 
     if (location.length == 0) { // if the path length is 0, set it to primary page route
         location = "/";
