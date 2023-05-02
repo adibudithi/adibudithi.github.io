@@ -13,22 +13,22 @@ const urlRoutes = {
     404: {
         template: "/pages/404.html",
         title: "404",
-        description: "Page not found",
+        description: "page not found",
     },
     "/": {
         template: "/pages/home.html",
         title: "adi budithi",
-        description: "This is the home page",
+        description: "home page",
     },
     "/about": {
         template: "/pages/about.html",
         title: "about",
-        description: "This is the about page",
+        description: "about page",
     },
     "/contact": {
         template: "/pages/contact.html",
         title: "contact",
-        description: "This is the contact page",
+        description: "contact page",
     },
 };
 
