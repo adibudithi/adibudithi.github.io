@@ -34,7 +34,7 @@ function clickAdi(image) {
             image.src = "images/assets/adi.jpg";
             state = 1;
         case 1:
-            image.src = "images/assets/qr.png";
+            image.src = "images/assets/qr.jpg";
             state = 0;
     }
 }
