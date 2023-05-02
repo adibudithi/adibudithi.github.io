@@ -27,10 +27,8 @@ function leaveGitHub(image) {
 }
 
 var state = 0;
-var clicks = 0;
 
 function clickAdi(image) {
-    clicks++;
     switch (state) {
         case 0:
             image.src = "images/assets/qr.jpg";
@@ -43,6 +41,4 @@ function clickAdi(image) {
             console.log("case 1");
             break;
     }
-    console.log("clicks: " + clicks);
-    console.log("state:" + state);
 }
