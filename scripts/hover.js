@@ -35,9 +35,11 @@ function clickAdi(image) {
         case 0:
             image.src = "images/assets/qr.jpg";
             state = 1;
+            console.log("case 0");
         case 1:
             image.src = "images/assets/adi.jpg";
             state = 0;
+            console.log("case 1");
     }
     console.log("clicks: " + clicks);
     console.log("state:" + state);
