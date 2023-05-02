@@ -55,7 +55,7 @@ const urlLocationHandler = async () => {
     document.getElementById("content").innerHTML = html; // set the content of the content div to the html
     document.title = route.title;// set the title of the document to the title of the route
     document // set the description of the document to the description of the route
-        .querySelector('met a[name="description"]')
+        .querySelector('meta[name="description"]')
         .setAttribute("content", route.description);
 };
 
