@@ -33,10 +33,10 @@ function clickAdi(image) {
     clicks++;
     switch (state) {
         case 0:
-            image.src = "images/assets/adi.jpg";
+            image.src = "images/assets/qr.jpg";
             state = 1;
         case 1:
-            image.src = "images/assets/qr.jpg";
+            image.src = "images/assets/adi.jpg";
             state = 0;
     }
     console.log("clicks: " + clicks);
