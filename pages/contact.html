@@ -1,5 +1,29 @@
-<div class="construction">
+<div class="page">
     <h1>contact me</h1>
     <br>
-    <h2>page under construction</h2>
+    <p>Want to get in touch? You can...</p>
+    <p>email me (<a href="mailto:adibudithi@gmail.com">adibudithi@gmail.com</a>),</p>
+    <p>message me on LinkedIn (<a href="https://linkedin.com/in/adibudithi">linkedin.com/in/adibudithi</a>),</p>
+    <p>or fill out the form below!</p>
+    <br>
+    <!-- <form method="post" action="../scripts/email.php"></form> add when hosting with php-->
+    <form>
+        <label for="name"> name:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="John Smith">
+        <br>
+        <label for="email">email:</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="johnsmith@email.com">
+        <br>
+        <label for="phone">phone:</label>
+        <br>
+        <input type="text" id="phone" name="phone" placeholder="123-456-7890">
+        <br>
+        <label for="message">message:</label>
+        <br>
+        <textarea id="message" name="message" rows="10" placeholder="Write your message here."></textarea>
+        <br>
+        <input type="submit" name="send" value="send">
+    </form>
 </div>

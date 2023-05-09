@@ -124,9 +124,15 @@ body {
 }
 
 .construction {
-    padding:20px;
-    height:100vh;
-    background-color:#4b4b4b;
+    padding: 20px;
+    height: 100vh;
+    background-color: #4b4b4b;
+}
+
+.page {
+    padding: 20px;
+    height: fit-content;
+    background-color: #4b4b4b;
 }
 
 /* profile picture */
@@ -183,12 +189,87 @@ body {
     clear: right;
 }
 
+nav > a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightsalmon;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: orangered;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: lightgray;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(210, 55, 0);
+}
+
 /* responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
     .row {
         flex-direction: column;
         max-width: 100%;
     }
+
     .main {
         max-height: none;
         overflow-y: none;
