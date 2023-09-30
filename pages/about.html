@@ -1,29 +1,61 @@
-<style>
-    #aboutphoto {
-        width: 95vw;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="page">
-    <h1>about me</h1>
-    <br>
-    <!-- <img id="aboutphoto" src="../images/assets/adi-black-sand.jpg" alt="adi at the beach">
-    <br> -->
-    <p>
-        "Results-driven software engineer with a strong background in Java, Python, Node.js, banking payments, and expertise in AWS, NoSQL, and SQL. Proficient in a wide range of technologies and frameworks, I have successfully delivered secure, scalable, and efficient software solutions across various industries.
+    <script src="/scripts/overscroll.js"></script>
+    <script src="/scripts/hover.js"></script>
 
-        In Java, I have developed enterprise-level applications, leveraging frameworks such as Spring and Hibernate to build robust and maintainable codebases. I have designed and implemented RESTful APIs, integrated with databases, and ensured application security. Additionally, I am skilled in popular Java libraries and tools such as Spring Boot, JPA, and Maven.
+    <head>
+        <title>adi budithi</title>
+        <link rel="icon" type="image/png" href="/images/assets/nerd_emoji.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="adi's website">
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
 
-        In Python, I have utilized the language's versatility to develop data-driven applications and automation scripts. I have leveraged popular libraries and frameworks such as Django and Flask to create web applications and RESTful APIs. I am also experienced in data manipulation and analysis using libraries like Pandas and NumPy. Furthermore, I am proficient in popular Python tools like SQLAlchemy and pytest.
+    <body>
+        <div class="header">
+            <h1>about</h1>
+            <nav class="navbar">
+                <a href="/">home</a>
+                <a href="/blog">blog</a>
+                <a href="/projects">projects</a>
+            </nav>
+        </div>
 
-        With Node.js, I have developed server-side applications, including real-time systems and microservices. I have built scalable and event-driven applications using frameworks such as Express.js and Socket.IO. I have also worked extensively with NoSQL databases like MongoDB, utilizing their flexibility for handling high-volume data requirements. Additionally, I have experience with SQL databases such as MySQL and PostgreSQL, enabling effective data modeling and querying.
-
-        Within banking payments, I possess hands-on experience in payment processing systems, payment gateways, and APIs. I have integrated major payment providers such as Stripe and PayPal into banking applications, ensuring seamless transactions and compliance with industry standards such as PCI-DSS.
-
-        In terms of cloud computing, I have expertise in Amazon Web Services (AWS), leveraging services such as EC2, S3, Lambda, and RDS to deploy scalable and resilient applications. I am experienced in infrastructure-as-code using AWS CloudFormation and containerization using Docker.
-
-        Throughout my career, I have demonstrated effective problem-solving skills and the ability to collaborate with cross-functional teams, delivering high-quality software solutions. I stay updated with emerging technologies and industry trends, consistently enhancing my skills in areas such as DevOps (CI/CD), data engineering, and machine learning.
-
-        In summary, my diverse experience in Java, Python, Node.js, banking payments, AWS, NoSQL, and SQL equips me to tackle challenging projects across industries. I am dedicated to delivering innovative and reliable software solutions that meet business objectives and drive positive outcomes."
-    </p>
-</div>
+        <div class="page">
+            <img onclick="clickAdi(this)" class="profileimg" src="/images/assets/adi.jpg" alt="adi's face" />
+            <a href="docs/adi_resume.pdf" download>my resume ⬇</a>
+            <p style="text-align:justify; line-height: 25px;">
+                Hello! I'm a software engineer living in Brooklyn, New York. I'm into food, fitness,
+                friends, basketball, and video games. I'm working on some
+                personal projects and learning about algorithms, networking, data science, and
+                machine learning. I got my Bachelor's degree in Mathematics and Computer Science
+                at the University of Illinois at Urbana-Champaign and have over 3 years of
+                programming experience with companies like Capital One and AbbVie. I am skilled
+                in Java, Python, JavaScript, SQL, and AWS.
+            </p>
+            <div style="margin-bottom: 50px; margin:auto">
+                <a style="color: #4b4b4b;;" href="mailto:adibudithi@gmail.com">
+                    <img onmouseenter="hoverEmail(this)" onmouseleave="leaveEmail(this)" class="iconimg" src="/images/assets/email.png" alt="email" />
+                </a>
+                <a style="color: #4b4b4b;;" href="https://linkedin.com/in/adibudithi" target="_blank">
+                    <img onmouseenter="hoverLinkedIn(this)" onmouseleave="leaveLinkedIn(this)" class="iconimg" src="/images/assets/linkedin.png" alt="linkedin" />
+                </a>
+                <a style="color: #4b4b4b;" href="https://github.com/adibudithi" target="_blank">
+                    <img onmouseenter="hoverGitHub(this)" onmouseleave="leaveGitHub(this)" class="iconimg" src="/images/assets/github.png" alt="github" />
+                </a>
+            </div>
+            <!-- <h3>my main skills</h3>
+            <div>
+                <img class="skillimg" style="background-color:lightblue;" src="/images/assets/java.png" alt="java logo" />
+                <img class="skillimg" style="background-color:#f4e11e;" src="/images/assets/javascript.png"
+                    alt="javascript logo" />
+            </div>
+            <div style="clear:left">
+                <img class="skillimg" style="background-color:#fdcc77;" src="/images/assets/aws.png" alt="aws logo" />
+                <img class="skillimg" style="background-color:#dedede;" src="/images/assets/python.png" alt="python logo" />
+            </div> -->
+        </div>
+    </body>
+</html>

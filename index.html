@@ -1,76 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // MIT License
-    // https://github.com/rafgraph/spa-github-pages
-    // This script checks to see if a redirect is present in the query string,
-    // converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-        );
-      }
-    }(window.location))
-</script>
-<script src="/scripts/overscroll.js"></script>
-<script src="/scripts/hover.js"></script>
+    <script src="/scripts/overscroll.js"></script>
+    <script src="/scripts/hover.js"></script>
 
-<head>
-    <title>adi budithi</title>
-    <link rel="icon" type="image/png" href="/images/assets/monkey-icon.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="adi's website">
-    <link rel="stylesheet" href="/styles/styles.css">
-</head>
+    <!--
+        resources: 
+        https://stackoverflow.com/questions/36387676/is-it-possible-to-reuse-html-like-a-template-on-multiple-pages 
+    -->
 
-<body>
-    <div class="header">
-        <h1>adi</h1>
-        <h1>budithi</h1>
-    </div>
+    <head>
+        <title>adi budithi</title>
+        <link rel="icon" type="image/png" href="/images/assets/nerd_emoji.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="adi's website">
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
 
-    <img onmouseenter="tickle(this)" onmouseleave="leave(this)" class="dk" src="/images/assets/dk.gif" />
-
-    <nav class="navbar">
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/contact">contact</a>
-    </nav>
-
-    <!-- <div class="navbar">
-        <a href="https://adibudithi.github.io">home</a>
-        <a href="#about">about</a>
-        <a href="mailto:adibudithi@gmail.com">contact</a>
-    </div> -->
-
-    <div id="content">
-
-    </div>
-
-    <div class="footer">
-        <div style="float:right;display:inline">
-            <img src="/images/assets/harambe.jpg" alt="harambe" />
-            <h3>harambe 2016</h2>
+    <body>
+        <div class="home">
+            <div class="name">
+                <h1>adi</h1>
+                <h1>budithi</h1>
+            </div>
+            <nav class="navbar">
+                <!-- <a href="/">home</a> -->
+                <a href="/about">about</a>
+                <a href="/blog">blog</a>
+                <a href="/projects">projects</a>
+            </nav>
         </div>
-        <p>Created by Aditya Budithi</p>
-        <p>Last updated May 1, 2023</p>
-        <p>Thanks for coming!</p>
-    </div>
 
-    <script src="/scripts/router.js"></script>
-
-</body>
-
+        
+    </body>
 </html>
