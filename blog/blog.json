@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Jimmy Buckets",
+        "date": "April 25, 2023",
+        "subtitle": "Wow.",
+        "content": "This NBA season's already been wild. Everyone's going hard on the playoffs but Jimmy Butler is different. Bucks were my favorite cuz I love Giannis but let's see who wants it more.",
+        "images": [
+            "jimmy-buckets.jpg"
+        ]
+    },
+    {
+        "title": "Another one",
+        "date": "March 3, 2023",
+        "subtitle": "Going 24",
+        "content": "Man, I'm old. Feeling tired and still dumb. What does it take to grow up? Anyways, nursed my boy Matt while he's sick and watched him play both The Last of Us games cuz of the show hype. Honestly, a pretty good day.",
+        "images": [
+            "me-and-gogh.jpg"
+        ]
+    },
+    {
+        "title": "Let's get big",
+        "date": "February 28, 2023",
+        "subtitle": "Started lifting again...",
+        "content": "Time to get back into it. I'm focusing on more bodyweight/calisthenic/flexibility work for joint health and overall strength. Cardio will come in time.",
+        "images": [
+            "me-and-wasan.jpg"
+        ]
+    },
+    {
+        "title": "Goodbye, Capital One",
+        "date": "November 21, 2022",
+        "subtitle": "Well then.",
+        "content": "Sometimes, you gotta take one step back to take two steps forward. I enjoyed my time there and learned a bunch, gonna miss you folks.",
+        "images": [
+            "cap-one-fun.jpg"
+        ]
+    },
+    {
+        "title": "The ancestral lands",
+        "date": "November 10, 2022",
+        "subtitle": "Home, sweet home.",
+        "content": "I went to India. Chilled with my family and even made some new baller friends. Love you, Thathayya.",
+        "images": [
+            "desi-boys.jpg",
+            "me-and-gangamma.jpg"
+        ]
+    },
+    {
+        "title": "Website launch",
+        "date": "October 31, 2022",
+        "subtitle": "Here we go...",
+        "content": "I'm planning on using this to document my thoughts and findings both for myself and anyone who is interested.",
+        "images": [
+            "halloween.jpg"
+        ]
+    }
+]

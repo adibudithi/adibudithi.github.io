@@ -124,6 +124,10 @@ input[type=submit]:hover {
     color: gold;
 }
 
+.header {
+    position: fixed;
+}
+
 .header h1 {
     padding: 15px;
     padding-bottom: 0;
@@ -171,9 +175,10 @@ input[type=submit]:hover {
     color: gold;
 }
 
-.page {
+.about {
     margin: auto;
     padding: 20px;
+    padding-top: 100px;
     height: fit-content;
     width: 500px;
     max-width: 100vw;
@@ -182,7 +187,8 @@ input[type=submit]:hover {
 
 .blog {
     margin: auto;
-    width: 500px
+    padding-top: 100px;
+    width: 500px;
 }
 
 .blog h5 {
