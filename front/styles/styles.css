@@ -188,6 +188,7 @@ input[type=submit]:hover {
 .blog {
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 30px;
     width: 500px;
 }
 
@@ -201,11 +202,21 @@ input[type=submit]:hover {
 }
 
 .blog img {
-    width: 500px;
+    max-width: 500px;
+}
+
+.blog.project img {
+    height: 200px;
+    display: block;
+    margin: auto;
 }
 
 .blog hr {
     margin: 10px 0;
+}
+
+.blog.project hr {
+    margin: 50px 0;
 }
 
 .date {
