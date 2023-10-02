@@ -1,9 +1,5 @@
 const pg = require("pg")
 
-const client = new pg.Client()
-
-await client.connect()
-
 const createBlogTextTable = 
 `
 CREATE TABLE public.blog_text
@@ -32,8 +28,22 @@ ALTER TABLE IF EXISTS public.blog_images
 `
 
 async function createTables() {
-    await client.query(createBlogTextTable);
+    const client = new pg.Client()
+    await client.connect()
+    await client.query(createBlogTextTable)
     await client.query(createBlogImagesTable)
+    await client.end()
 }
 
-await client.end()
+async function deleteTables() {
+
+}
+
+async function insertBlogPost() {
+
+}
+
+async function insertProject() {
+
+}
+
