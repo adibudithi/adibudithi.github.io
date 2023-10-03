@@ -11,5 +11,4 @@ window.addEventListener('wheel', (e) => {
         document.documentElement.style.background = '#333';
         isCeiling = false;
     }
-
 });

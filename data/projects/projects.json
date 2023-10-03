@@ -1,26 +1,17 @@
 [
     {
-        "name": "project1",
-        "summary": "summary1",
-        "images": [
-            "img1.jpg",
-            "img2.jpg"
-        ]
+        "name": "Calcu-plate-or",
+        "summary": "An app that calculates the optimal order to load plates onto a barbell for your lifts. Less time carrying plates, more time lifting weights.",
+        "image": "spongebob-lifts.png"
     },
     {
-        "name": "project2",
-        "summary": "summary2",
-        "images": [
-            "img1.jpg",
-            "img2.jpg"
-        ]
+        "name": "Quantum gravity model",
+        "summary": "An app that calculates the optimal order to load plates onto a barbell for your lifts. Less time carrying plates, more time lifting weights.",
+        "image": "black_hole.png"
     },
     {
-        "name": "project3",
-        "summary": "summary3",
-        "images": [
-            "img1.jpg",
-            "img2.jpg"
-        ]
+        "name": "Player 2",
+        "summary": "Dating app for gamers. Project discontinued due to its paradoxical nature.",
+        "image": "heart.png"
     }
 ]

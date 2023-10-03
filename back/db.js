@@ -1,3 +1,8 @@
+/*
+    https://www.youtube.com/watch?v=_n-Ai30C1qs
+    https://stackoverflow.com/questions/12354947/how-to-structure-the-tables-of-a-very-simple-blog-in-mysql
+*/
+
 const pg = require("pg")
 
 const createBlogTextTable = 

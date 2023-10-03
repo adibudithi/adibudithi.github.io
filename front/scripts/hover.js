@@ -39,7 +39,7 @@ let state = 0;
 function clickAdi(img) {
     switch (state) {
         case 0:
-            img.src = imagesPath + "qr.jpg";
+            img.src = imagesPath + "punished_adi.jpg";
             state = 1;
             break;
         case 1:
