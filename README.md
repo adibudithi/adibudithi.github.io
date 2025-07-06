@@ -1,2 +1,2 @@
-# adibudithi.github.io
+# adibudithi.com
 my personal website
