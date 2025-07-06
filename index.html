@@ -1,76 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // MIT License
-    // https://github.com/rafgraph/spa-github-pages
-    // This script checks to see if a redirect is present in the query string,
-    // converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-        );
-      }
-    }(window.location))
-</script>
-<script src="/scripts/overscroll.js"></script>
-<script src="/scripts/hover.js"></script>
-
 <head>
-    <title>adi budithi</title>
-    <link rel="icon" type="image/png" href="/images/assets/monkey-icon.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="adi's website">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adi Budithi</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <div class="header">
-        <h1>adi</h1>
-        <h1>budithi</h1>
-    </div>
+    <header>
+        <h1>🦧</h1>
+        <h1>Hi, I'm Adi</h1>
+        <p class="subtitle">Software Engineer | Full-Stack Developer | AI Engineer</p>
+        <p class="intro">
+            I specialize in building applications and AI-driven systems.
+        </p>
+        <a class="button" href="resume.pdf" download>📄 Download My Résumé</a>
+    </header>
 
-    <img onmouseenter="tickle(this)" onmouseleave="leave(this)" class="dk" src="/images/assets/dk.gif" />
+    <main>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Capital One</strong></li>
+                <li><strong>AbbVie</strong></li>
+            </ul>
+        </section>
 
-    <nav class="navbar">
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/contact">contact</a>
-    </nav>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/adibudithi/rag-langchain-huggingface" target="_blank" rel="noopener">
+                        <strong>RAG Pipeline:</strong> Retrieval-Augmented Generation for LLMs demonstration
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/adibudithi/my_first_crew" target="_blank" rel="noopener">
+                        <strong>Agentic Research Team:</strong> Deep research using Crew AI and AI agents
+                    </a>
+                </li>
+            </ul>
+            More to come...
+        </section>
 
-    <!-- <div class="navbar">
-        <a href="https://adibudithi.github.io">home</a>
-        <a href="#about">about</a>
-        <a href="mailto:adibudithi@gmail.com">contact</a>
-    </div> -->
 
-    <div id="content">
-
-    </div>
-
-    <div class="footer">
-        <div style="float:right;display:inline">
-            <img src="/images/assets/harambe.jpg" alt="harambe" />
-            <h3>harambe 2016</h2>
-        </div>
-        <p>Created by Aditya Budithi</p>
-        <p>Last updated May 1, 2023</p>
-        <p>Thanks for coming!</p>
-    </div>
-
-    <script src="/scripts/router.js"></script>
-
+        <section>
+            <h2>Contact</h2>
+            <p>
+                <img src="icons/email.svg" alt="icon" class="icon" />
+                Email: <a href="mailto:adibudithi@outlook.com">adibudithi@outlook.com</a>
+            </p>
+            <p>
+                <img src="icons/linkedin.svg" alt="icon" class="icon" />
+                LinkedIn: <a href="https://linkedin.com/in/adibudithi" target="_blank">adibudithi</a>
+            </p>
+            <p>
+                <img src="icons/github.svg" alt="icon" class="icon" />
+                Github: <a href="https://github.com/adibudithi" target="_blank">adibudithi</a>
+            </p>
+        </section>
+    </main>
 </body>
 
 </html>
