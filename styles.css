@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
   margin: 0;
   padding: 2rem;
   padding-top: 15vh;
@@ -8,6 +7,10 @@ body {
   margin: auto;
   background: #f9f9f9;
   color: #333;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 header {
